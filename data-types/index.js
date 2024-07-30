@@ -1,0 +1,10 @@
+var userId = 201;
+var firstName = "Joy";
+var lastName = "Das";
+var isActive = true;
+var fullName = firstName + " " + lastName;
+console.log(userId);
+console.log(firstName);
+console.log(lastName);
+console.log(isActive);
+console.log(fullName);
