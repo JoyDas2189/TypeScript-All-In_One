@@ -33,23 +33,12 @@ const person2 : {
 console.log(person1.address.city);
 console.log(person2.address.city);
  */
-var person1 = {
-    name: "Joy",
-    age: 23,
-    isStudent: true,
-    address: {
-        city: "Dhaka",
-        country: "Bangladesh"
-    }
+var product = {
+    name: "RX 5500XT",
+    price: 19500,
+    quantity: 5
 };
-var person2 = {
-    name: "Zoro",
-    age: 36,
-    isStudent: false,
-    address: {
-        city: "Shimotsuki",
-        country: "Japan"
-    }
-};
-console.log(person1.address.city);
-console.log(person2.address.city);
+function calculatePrice(product) {
+    return "Product Name ".concat(product.name, ", Total Price is ").concat(product.price * product.quantity, ".");
+}
+console.log(calculatePrice(product));

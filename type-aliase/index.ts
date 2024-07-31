@@ -36,7 +36,7 @@ console.log(person2.address.city);
 
 // Using Type-aliase
 
-type Person = {
+/* type Person = {
     name : string;
     age : number;
     isStudent: boolean;
@@ -65,3 +65,23 @@ const person2 : Person = {
 
 console.log(person1.address.city);
 console.log(person2.address.city);
+ */
+
+type Product = {
+    name : string;
+    price: number;
+    quantity: number;
+}
+
+const product : Product = {
+    name : "RX 5500XT",
+    price: 19500,
+    quantity: 5
+}
+
+
+function calculatePrice (product: Product) {
+    return `Product Name ${product.name}, Total Price is ${product.price * product.quantity}.`;
+}
+
+console.log(calculatePrice(product))
