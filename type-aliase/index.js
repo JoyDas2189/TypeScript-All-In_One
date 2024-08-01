@@ -33,6 +33,27 @@ const person2 : {
 console.log(person1.address.city);
 console.log(person2.address.city);
  */
+// Using Type-aliase
+var person1 = {
+    name: "Joy",
+    age: 23,
+    isStudent: true,
+    address: {
+        city: "Dhaka",
+        country: "Bangladesh"
+    }
+};
+var person2 = {
+    name: "Zoro",
+    age: 36,
+    isStudent: false,
+    address: {
+        city: "Shimotsuki",
+        country: "Japan"
+    }
+};
+console.log(person1.address.city);
+console.log(person2.address.city);
 var product = {
     name: "RX 5500XT",
     price: 19500,

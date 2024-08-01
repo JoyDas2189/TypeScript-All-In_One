@@ -33,10 +33,9 @@ const person2 : {
 console.log(person1.address.city);
 console.log(person2.address.city);
  */
-
 // Using Type-aliase
 
-/* type Person = {
+ type Person = {
     name : string;
     age : number;
     isStudent: boolean;
@@ -65,7 +64,7 @@ const person2 : Person = {
 
 console.log(person1.address.city);
 console.log(person2.address.city);
- */
+
 
 type Product = {
     name : string;
