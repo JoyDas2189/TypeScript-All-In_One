@@ -10,10 +10,7 @@
 // console.log(logAndReturn(true));
 
 
-function displayer<T, U>(a:T , b:U) {
-    console.log(`${a} ${b}`);
-    
+function myDisplayer<T, U> (value1:T, value2:U) {
+    return [value1, value2];
 }
-displayer(10, 5);
-displayer("Hello", "World");
-
+console.log(myDisplayer(10, 10));

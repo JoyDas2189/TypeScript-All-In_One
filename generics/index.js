@@ -5,8 +5,7 @@
 // console.log(logAndReturn("Joy"));
 // console.log(logAndReturn(23));
 // console.log(logAndReturn(true));
-function displayer(a, b) {
-    console.log("".concat(a, " ").concat(b));
+function myDisplayer(value1, value2) {
+    return [value1, value2];
 }
-displayer(10, 5);
-displayer("Hello", "World");
+console.log(myDisplayer(10, 10));

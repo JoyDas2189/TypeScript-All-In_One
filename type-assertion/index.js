@@ -1,0 +1,13 @@
+var personName = "Manik";
+var personAge = 23;
+var personGender = "male";
+console.log(personName);
+console.log(personAge);
+console.log(personGender);
+console.log(typeof personAge);
+console.log(typeof personGender);
+var student = {};
+student.name = "Harun";
+student.age = 15;
+console.log(student.name);
+console.log(student.age);
